@@ -1,0 +1,147 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: black;
+}
+/*====================header========================*/
+#header {
+  float: left;
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  float: left;
+  position: fixed;
+}
+#banner {
+  width: 100%;
+  height: 100px;
+  background-image: url("img/D1869_4_025_0004_600.jpg");
+  background-size: 100%;
+  padding-left: 10%;
+}
+
+#logo {
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+#menu {
+  height: 100%;
+  width: 80%;
+  float: left;
+}
+#menu ul {
+  list-style-type: none;
+  text-align: center;
+  padding-top: 30px;
+}
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 15%;
+  height: 100%;
+  margin-left: -5px;
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  display: block;
+}
+#menu a:hover {
+  color: #333;
+}
+/*=========================CONTENT==============================*/
+#content {
+  width: 100%;
+}
+
+.container {
+  max-width: 80%;
+  padding: 50px 0;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+#banner-1 {
+  height: 300px;
+  background-color: coral;
+}
+#banner-2 {
+  height: 300px;
+  background-color: crimson;
+}
+#news-1 {
+  height: 300px;
+  background-image: url("img/R_BS_1920x510_pc.jpg");
+}
+#news-2 {
+  height: 300px;
+  background-image: url("img/new.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.tab-links {
+  width: 100%;
+  height: 12.5%;
+}
+.tab-links h3 {
+  color: white;
+  text-align: center;
+}
+
+.tab-wrapper {
+  width: 100%;
+  height: 87.5%;
+}
+.tab-wrapper ul li {
+  height: 37.5px;
+  color: white;
+  font-size: 18px;
+  list-style-type: none;
+}
+/*=========================FOOTER==============================*/
+#footer {
+  width: 100%;
+  background-color: #17181a;
+}
+#footer-top {
+  width: 100%;
+  height: 163px;
+}
+#footer-mid {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  padding-top: 50px;
+}
+#footer-mid-2 {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+#footer-bot {
+  width: 100%;
+  height: 163px;
+}
+#footer-info {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.footer-logo {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  background-color: black;
+}
+.footer-item {
+  text-align: center;
+}
